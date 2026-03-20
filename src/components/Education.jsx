@@ -28,7 +28,7 @@ const Education = () => {
     const education = [
         {
             year: "2026 - 2027",
-            degree: "3e année Bachelor Informatique",
+            degree: "3e année Bachelor Informatique - Spécialisation IABD",
             school: "ESGI Paris",
             location: "Paris, France",
             current: true
@@ -42,13 +42,13 @@ const Education = () => {
         },
         {
             year: "2024 - 2025",
-            degree: "1ère année Bachelor Data",
+            degree: "1ère année Bachelor Data & App Design",
             school: "ESTIAM Paris",
             location: "Paris, France",
             current: false
         },
         {
-            year: "2022",
+            year: "2019 - 2022",
             degree: "Licence Pro Biologie Humaine",
             school: "EPAC / UAC",
             location: "Bénin",

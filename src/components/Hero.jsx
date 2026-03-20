@@ -18,13 +18,12 @@ const Hero = () => {
                     Disponible à partir de Septembre 2026
                 </span>
 
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white leading-tight">
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white leading-tight uppercase">
                     Aziz <span className="text-accent underline decoration-white/10 decoration-8 underline-offset-10">FASSINOU</span>
                 </h1>
 
                 <h2 className="text-xl md:text-2xl font-medium text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-                    Étudiant en 3e année de Bachelor <span className="text-white">IABD (Intelligence Artificielle et Big Data)</span> à l'ESGI.
-                    Expertise en Bases de Données, Visualisation et Analyse de Données.
+                    Data Analyst | Étudiant en 3e année de Bachelor <span className="text-white">IA & Big Data</span> à l'ESGI.
                 </h2>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">

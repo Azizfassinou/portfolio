@@ -62,23 +62,15 @@ const ProjectCard = ({ title, description, image, tags, link, github, linkedin }
 const Projects = () => {
     const projects = [
         {
-            title: "Analyses des données de Maintenance",
-            description: "Création de tableaux de bord PowerBI stratégiques pour Voies Navigables de France. Analyse de données GMAO pour le pilotage de la maintenance des infrastructures.",
+            title: "Analyses de données de Maintenance",
+            description: "Analyse de données GMAO pour Voies Navigables de France. Création de tableaux de bord PowerBI pour le pilotage stratégique de la maintenance.",
             image: "/vnf_dashboard.png",
-            tags: ["PowerBI", "SQL", "Analyse de Données"],
+            tags: ["PowerBI", "SQL", "Analyse"],
             link: "/projects/vnf-maintenance",
         },
         {
-            title: "AI PR Analysis Bot",
-            description: "Bot automatisé d'analyse de Pull Requests GitHub via l'API Blackbox AI pour le Hackathon Future of Coding. Optimisation de la qualité du code par l'IA.",
-            image: "/pr_analysis_bot.png",
-            tags: ["Python", "LLM", "API", "Blackbox AI"],
-            linkedin: "https://www.linkedin.com/posts/aziz-fassinou_hackathon-futureofcoding-ai-activity-7386901477446885377-cN8D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADx20AUB8NgcM_4xLBGK8ECue9A8XBdF_oY",
-        },
-
-        {
-            title: "Meteor Madness (NASA)",
-            description: "Développement d'une application de visualisation pour le NASA Space Apps Challenge. Analyse et vulgarisation de données scientifiques complexes sur les météores.",
+            title: "NASA Space Apps Challenge",
+            description: "Développement de l'application 'Meteor Madness' pour vulgariser des données scientifiques complexes. Visualisation interactive de trajectoires de météores.",
             image: "/meteor_madness.png",
             tags: ["Data Viz", "NASA API", "Hackathon"],
             link: "https://astrale.onrender.com/",
@@ -86,20 +78,29 @@ const Projects = () => {
         },
 
         {
-            title: "Solution de Gestion pour Maison Duval",
-            description: "Plateforme de gestion d'estimations (Hackathon d'école) pour une maison de ventes aux enchères. Inclus : Dashboard KPI temps réel, Workflow auto (Formulaire -> Airtable -> PDF -> Email) et Base métier Kanban.",
+            title: "Future of Coding Hackathon",
+            description: "Conception d'un bot intelligent d'analyse de Pull Requests GitHub via l'API Blackbox AI. Automatisation de l'analyse de code pour optimiser la productivité des développeurs.",
+            image: "/pr_analysis_bot.png",
+            tags: ["IA", "GitHub API", "Blackbox AI", "Python"],
+            linkedin: "https://www.linkedin.com/posts/aziz-fassinou_hackathon-futureofcoding-ai-activity-7386901477446885377-cN8D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADx20AUB8NgcM_4xLBGK8ECue9A8XBdF_oY",
+        },
+
+        {
+            title: "Projet Étudiant ESTIAM",
+            description: "Intégration d'une BDD Airtable pour la gestion de stages et automatisation de flux via Make. Mise en place d'un système de facturation et assistant ChatGPT.",
             image: "/maison_duval.png",
-            tags: ["Airtable", "Softr", "Make"],
+            tags: ["Airtable", "Make", "ChatGPT", "Gestion"],
             link: "https://maisonduval.softr.app/",
             linkedin: "https://www.linkedin.com/posts/aziz-fassinou_nocode-hackathon-esgi-activity-7428664364360052736-u0SV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADx20AUB8NgcM_4xLBGK8ECue9A8XBdF_oY",
         },
         {
             title: "Solution de Gestion RH & Stages",
-            description: "Application interactive (Hackathon d'école) facilitant la mise en relation et la gestion des recrutements. Optimisation du workflow RH et centralisation des données de stages.",
+            description: "Application interactive facilitant la mise en relation et la gestion des recrutements. Optimisation du workflow RH et centralisation des données de stages.",
             image: "/rh_stages.png",
-            tags: ["Glide", "No-code", "Data Management"],
+            tags: ["Glide", "No-code", "RH"],
             link: "https://benjamins-app-493j.glide.page/dl/ddecb1",
         },
+
         {
             title: "Application Collaborative",
             description: "Solution d'équipe de classe développée pour optimiser l'expérience utilisateur et la gestion des étudiants dans une classe. Focus sur l'ergonomie et la fluidité des interactions au sein d'une équipe.",
